@@ -1,0 +1,17 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contrôle de Présence par Code QR</title>
+    <style>
+        /* Ajoute ici tes styles CSS personnalisés */
+    </style>
+</head>
+<body>
+    <h1>Contrôle de Présence par Code QR</h1>
+    <div id="qr-container">
+        <img src="{{ url_for('../python_file/', filename='qr_code.png') }}" alt="Code QR généré">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
